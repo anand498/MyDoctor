@@ -36,7 +36,6 @@ public class LoginActivity extends AppCompatActivity {
                 boolean handled = false;
                 if (actionId == EditorInfo.IME_ACTION_DONE) {
                     validate( Password.getText().toString(),Name.getText().toString());
-
                     handled = true;
                 }
                 return handled;

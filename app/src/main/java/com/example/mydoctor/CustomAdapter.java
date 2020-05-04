@@ -58,7 +58,6 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         holder.name_txt.setText(String.valueOf(name.get(position)));
         holder.age_txt.setText(String.valueOf(age.get(position)));
         holder.phone_txt.setText(String.valueOf(phone.get(position)));
-        //Recyclerview onClickListener address,symptoms,medicine,reaction,comments
         holder.mainLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
