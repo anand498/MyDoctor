@@ -58,8 +58,6 @@ class MyDatabaseHelper extends SQLiteOpenHelper {
         Log.e("check",c);
 //        Cursor cursor = myDB.query(TABLE_NAME, q, COLUMN_PHONE + "=?",
 //                new String[] { phone }+" AND ", null, null, null, null);
-//        Cursor cursor = myDB.query(TABLE_NAME, q, COLUMN_NAME + "=?",
-//                new String[] { phone }, null, null, null, null);
         if (cursor.getCount() > 0)
         {
             return "exists";
